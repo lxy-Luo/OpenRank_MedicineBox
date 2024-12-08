@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qmx.smedicinebox.sys.dao.UserDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.qmx.smedicinebox.sys.entity.UserEntity" id="userMap">
+        <result property="uId" column="u_id"/>
+        <result property="uName" column="u_name"/>
+        <result property="uUsername" column="u_username"/>
+        <result property="uPassword" column="u_password"/>
+        <result property="uEmail" column="u_email"/>
+        <result property="uPhone" column="u_phone"/>
+        <result property="uGender" column="u_gender"/>
+        <result property="uVerifyCode" column="u_verify_code"/>
+        <result property="uVerifyCodeTime" column="u_verify_code_time"/>
+        <result property="uRegistTime" column="u_regist_time"/>
+        <result property="uAvatar" column="u_avatar"/>
+        <result property="uIsValid" column="u_is_valid"/>
+    </resultMap>
+
+    <insert id="baseInsert" parameterType="com.qmx.smedicinebox.sys.entity.UserEntity" useGeneratedKeys="true" keyProperty="uId">
+        INSERT INTO smb_user (u_name, u_username, u_password, u_email, u_phone, u_gender, u_verify_code, u_verify_code_time, u_regist_time, u_avatar, u_is_valid,u_emergency_contact,u_identity_id)
+        VALUES (#{usEntity.uName}, #{usEntity.uUsername}, #{usEntity.uPassword}, #{usEntity.uEmail}, #{usEntity.uPhone}, #{usEntity.uGender}, #{usEntity.uVerifyCode}, #{usEntity.uVerifyCodeTime}, #{usEntity.uRegistTime}, #{usEntity.uAvatar}, #{usEntity.uIsValid},#{usEntity.uEmergencyContact},#{usEntity.uIdentityId})
+    </insert>
+
+
+
+</mapper>

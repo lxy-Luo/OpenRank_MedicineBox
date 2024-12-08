@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qmx.smedicinebox.sys.dao.DailyMedicationPlanDao">
+    <insert id="insertDailyMedicationPlan" parameterType="com.qmx.smedicinebox.sys.entity.DailyMedicationPlanEntity" useGeneratedKeys="true" keyProperty="dpId">
+        INSERT INTO smb_daily_medication_plan (
+            dp_user, dp_dosage, dp_medicine
+        )
+            VALUES (
+            #{dailyMedicationPlan.dpUser}, #{dailyMedicationPlan.dpDosage}, #{dailyMedicationPlan.dpMedicine}
+            )
+    </insert>
+
+
+</mapper>

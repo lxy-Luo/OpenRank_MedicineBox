@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qmx.smedicinebox.sys.dao.MessageDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.qmx.smedicinebox.sys.entity.MessageEntity" id="messageMap">
+        <result property="msgId" column="msg_id"/>
+        <result property="msgDateTime" column="msg_date_time"/>
+        <result property="msgIsRead" column="msg_is_read"/>
+        <result property="msgSender" column="msg_sender"/>
+        <result property="msgRecipient" column="msg_recipient"/>
+        <result property="msgContent" column="msg_content"/>
+    </resultMap>
+    <!-- 在对应的mapper接口中定义baseInsert方法 -->
+
+    <!-- 在XML映射文件中实现baseInsert方法 -->
+    <insert id="baseInsert" parameterType="com.qmx.smedicinebox.sys.entity.MessageEntity" statementType="CALLABLE">
+        <!-- 使用INSERT INTO语句将数据插入到相应的数据库表中 -->
+        INSERT INTO smb_message (msg_date_time, msg_is_read, msg_sender, msg_recipient, msg_content)
+        VALUES (#{messageEntity.msgDateTime}, #{messageEntity.msgIsRead},#{messageEntity.msgSender},#{messageEntity.msgRecipient},#{messageEntity.msgContent})
+    </insert>
+
+
+    <update id="updateBatchIds" statementType="CALLABLE">
+        UPDATE smb_message
+        SET msg_is_read = 1
+        WHERE msg_id IN
+        <foreach collection="messageEntities" item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </update>
+    <select id="selectListByUserId" resultType="com.qmx.smedicinebox.vo.MessageVo">
+        select msg.msg_id id,msg.msg_date_time date,ss.sed_name sender,msg.msg_content content,msg_is_read isRead
+        from smb_message msg left join smb_sender ss on msg.msg_sender = ss.sed_id where
+        msg.msg_recipient = #{userId} order by msg_date_time desc limit #{page} , 7
+    </select>
+
+
+</mapper>

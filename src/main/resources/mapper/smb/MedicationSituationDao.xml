@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qmx.smedicinebox.sys.dao.MedicationSituationDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.qmx.smedicinebox.sys.entity.MedicationSituationEntity" id="medicationSituationMap">
+        <result property="sId" column="s_id"/>
+        <result property="sDate" column="s_date"/>
+        <result property="sTime" column="s_time"/>
+        <result property="sDosing" column="s_dosing"/>
+        <result property="sUnit" column="s_unit"/>
+        <result property="sUser" column="s_user"/>
+        <result property="sPic" column="s_pic"/>
+        <result property="sMedicine" column="s_medicine"/>
+
+    </resultMap>
+    <insert id="insertMs" parameterType="com.qmx.smedicinebox.sys.entity.MedicationSituationEntity" statementType="CALLABLE">
+        INSERT INTO smb_medication_situation
+            (s_date, s_time,s_dosing,s_unit,s_user,s_pic,s_medicine)
+        VALUES
+            (#{mSEntity.sDate}, #{mSEntity.sTime},#{mSEntity.sDosing},#{mSEntity.sUnit},#{mSEntity.sUser},#{mSEntity.sPic},#{mSEntity.sMedicine})
+    </insert>
+
+    <insert id="baseInsert" parameterType="com.qmx.smedicinebox.sys.entity.MedicationSituationEntity">
+        INSERT INTO smb_medication_situation
+            (s_date, s_time,s_dosing,s_unit,s_user,s_pic,s_medicine)
+        VALUES
+            (#{medicationSituationEntity.sDate}, #{medicationSituationEntity.sTime},#{medicationSituationEntity.sDosing},#{medicationSituationEntity.sUnit},#{medicationSituationEntity.sUser},#{medicationSituationEntity.sPic},#{medicationSituationEntity.sMedicine})
+    </insert>
+    <select id="getHistoryByUserId" resultType="com.qmx.smedicinebox.vo.MedicineHistory">
+        select * from smb_medication_situation m left join smb_medicine md on m.s_medicine = md.m_id where m.s_user=#{userId} order by m.s_time limit #{ page},7
+    </select>
+
+
+</mapper>

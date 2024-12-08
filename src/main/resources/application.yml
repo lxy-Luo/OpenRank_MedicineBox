@@ -1,0 +1,76 @@
+server:
+  port: 81
+#  servlet:
+#    session:
+#      cookie:
+#        name: SMEDICINEBOXSESSIONID
+#        path: /
+#        http-only: true
+#        secure: false
+#      timeout: PT60H
+#      persistent: false
+#      store-type: none
+
+
+spring:
+  datasource:
+    username: smartedicinebox
+    password: 123456
+    url: jdbc:mysql://150.158.34.156:3306/smartedicinebox?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 11MB
+      max-request-size: 11MB
+  mail:
+    protocol: smtp
+    host: smtp.163.com
+    port: 25
+#    username: mywarehouse2023@163.com
+#    password: UPPMNLUMAIQRHUWH
+
+    username: smedicinebox@163.com
+    password: OCYAPCBGGJXIWLFZ
+    default-encoding: utf-8
+    properties:
+      mail:
+        debug:true
+
+# springdoc-openapi项目配置
+#springdoc:
+#  swagger-ui:
+#    path: /swagger-ui.html
+#    tags-sorter: alpha
+#    operations-sorter: alpha
+#  api-docs:
+#    path: /v3/api-docs
+#  group-configs:
+#    - group: 'default'
+#      paths-to-match: '/**'
+#      #包的扫描需要修改对应位置
+#      packages-to-scan: com.qmx.smedicinebox.sys.controller
+# knife4j的增强配置，不需要增强可以不配
+#knife4j:
+#  enable: true
+#  setting:
+#    language: zh_cn
+# 分页
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+#IoTDB参数
+IoT:
+  host: 124.220.41.34
+  port: 6667
+  username: root
+  password: root

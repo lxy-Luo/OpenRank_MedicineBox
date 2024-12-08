@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qmx.smedicinebox.sys.dao.MedicineDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.qmx.smedicinebox.sys.entity.MedicineEntity" id="medicineMap">
+        <result property="mId" column="m_id"/>
+        <result property="mName" column="m_name"/>
+        <result property="mCategory" column="m_category"/>
+        <result property="mDesc" column="m_desc"/>
+        <result property="mPic" column="m_pic"/>
+    </resultMap>
+    <select id="selectAll" resultType="com.qmx.smedicinebox.sys.entity.MedicineEntity">
+        select * from smb_medicine <where>
+        <if test="mName!=null and mName!=''" > m_name like concat('%',#{mName} '%') </if>
+    </where>
+        order by m_id desc
+    </select>
+
+
+</mapper>

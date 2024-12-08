@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email 验证码验证</title>
+</head>
+<body>
+<div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
+    <h2 style="color: #333;">Email 验证码验证</h2>
+    <p>这封信是由 <a href="#" style="color: #007bff; text-decoration: none;">药箱平台</a> 发送的。</p>
+    <p>您收到这封邮件，是由于在 <a href="#" style="color: #007bff; text-decoration: none;">药箱平台</a> 进行了新用户注册，或用户修改 Email 密码。</p>
+    <hr style="border: 0; border-top: 1px solid #ccc; margin: 20px 0;">
+    <h3>账号激活说明</h3>
+    <p>如果您是 <a href="#" style="color: #007bff; text-decoration: none;">药箱平台</a> 的新用户，您只需将以下验证码填入注册界面：</p>
+    <div style="background-color: #f7f7f7; padding: 10px; border-radius: 5px; font-size: 18px; color: #333; margin-bottom: 20px;">
+        <strong>验证码：</strong> <span style="color: #007bff;" th:text="${verifyCode}"></span>
+    </div>
+    <p>感谢您的访问，祝您生活愉快！</p>
+    <p>此致，<br> <a href="#" style="color: #007bff; text-decoration: none;">药箱平台</a> 管理团队</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qmx.smedicinebox.sys.dao.DoctorDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.qmx.smedicinebox.sys.entity.DoctorEntity" id="doctorMap">
+        <result property="dId" column="d_id"/>
+        <result property="dName" column="d_name"/>
+        <result property="dGender" column="d_gender"/>
+        <result property="dDateOfBirth" column="d_date_of_birth"/>
+        <result property="dDepartment" column="d_department"/>
+        <result property="dEmail" column="d_email"/>
+        <result property="dPhone" column="d_phone"/>
+        <result property="dAddress" column="d_address"/>
+        <result property="dQualification" column="d_qualification"/>
+        <result property="dSpecialization" column="d_specialization"/>
+        <result property="dExperienceYears" column="d_experience_years"/>
+        <result property="dJoinDate" column="d_join_date"/>
+    </resultMap>
+
+
+</mapper>

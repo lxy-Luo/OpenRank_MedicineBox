@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qmx.smedicinebox.sys.dao.EmergencyContactDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.qmx.smedicinebox.sys.entity.EmergencyContactEntity" id="emergencyContactMap">
+        <result property="ecId" column="ec_id"/>
+        <result property="ecName" column="ec_name"/>
+        <result property="ecPhone" column="ec_phone"/>
+        <result property="ecEmail" column="ec_email"/>
+        <result property="ecGender" column="ec_gender"/>
+        <result property="ecDesc" column="ec_desc"/>
+        <result property="ecUser" column="ec_user"/>
+        <result property="ecIsValid" column="ec_is_valid"/>
+    </resultMap>
+
+    <insert id="baseInsert" parameterType="com.qmx.smedicinebox.sys.entity.EmergencyContactEntity" useGeneratedKeys="true" keyProperty="ecId">
+        INSERT INTO smb_emergency_contact (ec_name, ec_phone, ec_email, ec_gender, ec_desc, ec_user, ec_is_valid)
+        VALUES (#{ecEntity.ecName}, #{ecEntity.ecPhone}, #{ecEntity.ecEmail}, #{ecEntity.ecGender}, #{ecEntity.ecDesc}, #{ecEntity.ecUser}, #{ecEntity.ecIsValid})
+    </insert>
+
+
+
+</mapper>

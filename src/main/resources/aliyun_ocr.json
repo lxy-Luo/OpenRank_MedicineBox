@@ -1,0 +1,171 @@
+{
+  "request_id" : "E779ED95-D6C5-45E5-86A2-8F52C92B3E32",
+  "ret" : [
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : 0,
+        "height" : 80,
+        "left" : 299,
+        "top" : 197,
+        "width" : 183
+      },
+      "word" : "神威"
+    },
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : -1,
+        "height" : 51,
+        "left" : 1577,
+        "top" : 199,
+        "width" : 116
+      },
+      "word" : "OTC"
+    },
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : -1,
+        "height" : 183,
+        "left" : 399,
+        "top" : 340,
+        "width" : 152
+      },
+      "word" : "感"
+    },
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : -89,
+        "height" : 795,
+        "left" : 847,
+        "top" : 25,
+        "width" : 189
+      },
+      "word" : "冒清热颗粒"
+    },
+    {
+      "prob" : 0.7,
+      "rect" : {
+        "angle" : -1,
+        "height" : 16,
+        "left" : 1412,
+        "top" : 372,
+        "width" : 31
+      },
+      "word" : "00"
+    },
+    {
+      "prob" : 0.87,
+      "rect" : {
+        "angle" : -2,
+        "height" : 23,
+        "left" : 1406,
+        "top" : 418,
+        "width" : 41
+      },
+      "word" : "00"
+    },
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : 0,
+        "height" : 50,
+        "left" : 1167,
+        "top" : 508,
+        "width" : 149
+      },
+      "word" : "无蔗糖"
+    },
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : -2,
+        "height" : 54,
+        "left" : 433,
+        "top" : 627,
+        "width" : 41
+      },
+      "word" : "【"
+    },
+    {
+      "prob" : 0.97,
+      "rect" : {
+        "angle" : -1,
+        "height" : 53,
+        "left" : 456,
+        "top" : 625,
+        "width" : 266
+      },
+      "word" : "【功能主治】"
+    },
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : -1,
+        "height" : 39,
+        "left" : 433,
+        "top" : 689,
+        "width" : 544
+      },
+      "word" : "疏风散寒，解表清热。用于风寒"
+    },
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : 0,
+        "height" : 38,
+        "left" : 438,
+        "top" : 743,
+        "width" : 539
+      },
+      "word" : "感冒，头痛发热，恶寒身痛，鼻"
+    },
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : 0,
+        "height" : 37,
+        "left" : 448,
+        "top" : 796,
+        "width" : 317
+      },
+      "word" : "流清涕，咳嗽咽干。"
+    },
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : 0,
+        "height" : 38,
+        "left" : 489,
+        "top" : 1015,
+        "width" : 180
+      },
+      "word" : "神威药业"
+    },
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : -1,
+        "height" : 19,
+        "left" : 496,
+        "top" : 1057,
+        "width" : 173
+      },
+      "word" : "SHINEWAY"
+    },
+    {
+      "prob" : 0.99,
+      "rect" : {
+        "angle" : -2,
+        "height" : 32,
+        "left" : 1448,
+        "top" : 1043,
+        "width" : 170
+      },
+      "word" : "6克X10袋"
+    }
+  ],
+  "success" : true
+}
