@@ -1,0 +1,456 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "entry module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Heima Healthy entry ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Heima Healthy"
+    },
+    {
+      "name": "user_privacy_title",
+      "value": "Welcom To Use Heima Healthy"
+    },
+    {
+      "name": "user_privacy_content",
+      "value": "Thank you for trusting and using Heima Health! We will use the 《User Agreement》 and the 《Heima Health Privacy Policy》 to help you understand our collection, use, storage and sharing of personal information, in particular the relationship between the types of personal information we collect and the purposes for which we use it. In addition, you will learn about your rights and how to achieve them. If you agree, please click the button below to start receiving our services"
+    },
+    {
+      "name": "agree_label",
+      "value": "Agree"
+    },
+    {
+      "name": "refuse_label",
+      "value": "Refuse"
+    },
+    {
+      "name": "tab_record",
+      "value": "Record"
+    },
+    {
+      "name": "tab_discover",
+      "value": "Discover"
+    },
+    {
+      "name": "tab_user",
+      "value": "Mine"
+    },
+    {
+      "name": "breakfast",
+      "value": "Mreakfast"
+    },
+    {
+      "name": "lunch",
+      "value": "Lunch"
+    },
+    {
+      "name": "dinner",
+      "value": "Dinner"
+    },
+    {
+      "name": "extra_meal",
+      "value": "Extra Meal"
+    },
+    {
+      "name": "workout",
+      "value": "Workout"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "form_description"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "form_label"
+    },
+    {
+      "name": "staple",
+      "value": "staple"
+    },
+    {
+      "name": "fruit",
+      "value": "fruit"
+    },
+    {
+      "name": "meat",
+      "value": "meat"
+    },
+    {
+      "name": "nut",
+      "value": "nut"
+    },
+    {
+      "name": "other_type",
+      "value": "other"
+    },
+    {
+      "name": "walking_type",
+      "value": "walking"
+    },
+    {
+      "name": "running",
+      "value": "running"
+    },
+    {
+      "name": "riding",
+      "value": "riding"
+    },
+    {
+      "name": "aerobics",
+      "value": "aerobics"
+    },
+    {
+      "name": "swimming",
+      "value": "swimming"
+    },
+    {
+      "name": "ballgame",
+      "value": "ballgame"
+    },
+    {
+      "name": "strength",
+      "value": "strength"
+    },
+    {
+      "name": "RespiratoryMedicines",
+      "value": "RespiratoryMedicines"
+    },
+    {
+      "name": "AntiInflammatories",
+      "value": "AntiInflammatories"
+    },
+    {
+      "name": "PediatricMedications",
+      "value": "PediatricMedications"
+    },
+    {
+      "name": "OphthalmicMedications",
+      "value": "OphthalmicMedications"
+    },
+    {
+      "name": "GastrointestinalMedications",
+      "value": "GastrointestinalMedications"
+    },
+    {
+      "name": "ColdMedications",
+      "value": "ColdMedications"
+    },
+    {
+      "name": "DermalMedications",
+      "value": "DermalMedications"
+    },
+    {
+      "name": "TraumaMedications",
+      "value": "TraumaMedications"
+    },
+    {
+      "name": "GynecologicalMedications",
+      "value": "GynecologicalMedications"
+    },
+    {
+      "name": "BloodPressureMedications",
+      "value": "BloodPressureMedications"
+    },
+    {
+      "name": "yaoxiang",
+      "value": "medicine box"
+    },
+    {
+      "name": "isExit",
+      "value": "Are you sure exiting？"
+    },
+    {
+      "name": "isExitInfo",
+      "value": "After logging out, you need to log in to the application again."
+    },
+    {
+      "name": "yes",
+      "value": "Yes"
+    },
+    {
+      "name": "cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "inputUserInfo",
+      "value": "Please input username and password！"
+    },
+    {
+      "name": "pleaseTryAgain",
+      "value": "Please try again!"
+    },
+    {
+      "name": "networkOrServiceError",
+      "value": "The network connection is down or the server is abnormal."
+    },
+    {
+      "name": "appName",
+      "value": "鸿蒙医疗"
+    },
+    {
+      "name": "appInfo",
+      "value": "智能化医药app"
+    },
+    {
+      "name": "messageSMS",
+      "value": "短信验证"
+    },
+    {
+      "name": "forgetPassword",
+      "value": "SMS verification"
+    },
+    {
+      "name": "signUp",
+      "value": "Sign up"
+    },
+    {
+      "name": "copyRight",
+      "value": "Copyright owner of QiMingStar"
+    },
+    {
+      "name": "userName",
+      "value": "username"
+    },
+    {
+      "name": "password",
+      "value": "password"
+    },
+    {
+      "name": "login",
+      "value": "login"
+    },
+    {
+      "name": "logout",
+      "value": "logout"
+    },
+    {
+      "name": "setting_account_name",
+      "value": "Mr. Lee"
+    },
+    {
+      "name": "setting_account_email",
+      "value": "2000000@shenhua.cc"
+    },
+    {
+      "name": "setting_list_news",
+      "value": "Push Notifications"
+    },
+    {
+      "name": "setting_list_data",
+      "value": "Data Management"
+    },
+    {
+      "name": "setting_list_menu",
+      "value": "Menu Settings"
+    },
+    {
+      "name": "setting_list_about",
+      "value": "Clear Cache"
+    },
+    {
+      "name": "setting_list_storage",
+      "value": "clear cache"
+    },
+    {
+      "name": "setting_list_privacy",
+      "value": "Privacy Agreement"
+    },
+    {
+      "name": "setting_button",
+      "value": "Logout"
+    },
+    {
+      "name": "home_list",
+      "value": "List"
+    },
+    {
+      "name": "mainPage_tabTitles_mine",
+      "value": "Mine"
+    },
+    {
+      "name": "setting_toggle",
+      "value": "switch"
+    },
+    {
+      "name": "baseURL",
+      "value": "http://123.56.84.181:81"
+    },
+    {
+      "name": "my_love",
+      "value": "My favorite"
+    },
+    {
+      "name": "history_record",
+      "value": "History"
+    },
+    {
+      "name": "shopping_cart",
+      "value": "Shopping cart"
+    },
+    {
+      "name": "message",
+      "value": "Message"
+    },
+    {
+      "name": "my_goal",
+      "value": "Goal"
+    },
+    {
+      "name": "group",
+      "value": "group"
+    },
+    {
+      "name": "favorites",
+      "value": "Favorites"
+    },
+    {
+      "name": "recycle_bin",
+      "value": "husoul"
+    },
+    {
+      "name": "async_cloud",
+      "value": "Synchronized to the cloud"
+    },
+    {
+      "name":"async_cloud_failed",
+      "value": "Failed to synchronize to the cloud"
+    },
+    {
+      "name": "message_center",
+      "value": "Message Center"
+    },
+    {
+      "name": "no_data",
+      "value": "No Data"
+    },
+    {
+      "name": "read_all",
+      "value": "Read All"
+    },
+    {
+      "name": "delete_all",
+      "value": "Delete All"
+    },
+    {
+      "name":"flush",
+      "value": "Flush"
+    },
+    {
+      "name": "select",
+      "value": "Select"
+    },
+    {
+      "name": "delete_selected",
+      "value": "Delete Selected"
+    },
+    {
+      "name": "flush_success",
+      "value": "Flush Success"
+    },
+    {
+      "name": "view_details",
+      "value": "View_details"
+    },
+    {
+      "name": "mark_unread",
+      "value": "Mark Unread"
+    },
+    {
+      "name": "mark_read",
+      "value": "Mark Read"
+    },
+    {
+      "name": "mainPage_top",
+      "value": "Rankings"
+    },
+    {
+      "name": "mainPage_new",
+      "value": "New product debut"
+    },
+    {
+      "name": "mainPage_brand",
+      "value": "mainPage_brand"
+    },
+    {
+      "name": "mainPage_found",
+      "value": "mainPage_found"
+    },
+    {
+      "name": "mainPage_text_top",
+      "value": " we'll see you"
+    },
+    {
+      "name": "mainPage_text_new",
+      "value": "very new"
+    },
+    {
+      "name": "mainPage_text_brand",
+      "value": "my home"
+    },
+    {
+      "name": "mainPage_text_found",
+      "value": "my love"
+    },
+    {
+      "name": "real_name",
+      "value": "real name"
+    },
+    {
+      "name": "email",
+      "value": "email"
+    },
+    {
+      "name": "confirm_password",
+      "value": "confirm password"
+    },
+    {
+      "name": "sms_code",
+      "value": "sms code"
+    },
+    {
+      "name": "info_not_enough",
+      "value": "Please complete the details"
+    },
+    {
+      "name": "emergency_contact",
+      "value": "emergency contact"
+    },
+    {
+      "name": "contact_name",
+      "value": "contact name"
+    },
+    {
+      "name": "contact_phone",
+      "value": "contact phone"
+    },
+    {
+      "name": "contact_email",
+      "value": "contact email"
+    },
+    {
+      "name": "contact_info",
+      "value": "contact info"
+    },
+    {
+      "name": "phone",
+      "value": "phone"
+    },
+    {
+      "name": "no_contact",
+      "value": "no contact"
+    },
+    {
+      "name": "go_to_add",
+      "value": "go to add"
+    },
+    {
+      "name": "tab_locker",
+      "value": "locker"
+    }
+  ]
+}

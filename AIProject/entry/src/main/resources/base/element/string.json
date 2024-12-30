@@ -1,0 +1,457 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "user_privacy_title",
+      "value": "Welcom To Use Heima Healthy"
+    },
+    {
+      "name": "user_privacy_content",
+      "value": "Thank you for trusting and using Heima Health! We will use the 《User Agreement》 and the 《Heima Health Privacy Policy》 to help you understand our collection, use, storage and sharing of personal information, in particular the relationship between the types of personal information we collect and the purposes for which we use it. In addition, you will learn about your rights and how to achieve them. If you agree, please click the button below to start receiving our services"
+    },
+    {
+      "name": "agree_label",
+      "value": "agree"
+    },
+    {
+      "name": "refuse_label",
+      "value": "refuse"
+    },
+    {
+      "name": "tab_record",
+      "value": "record"
+    },
+    {
+      "name": "tab_discover",
+      "value": "discover"
+    },
+    {
+      "name": "tab_user",
+      "value": "mine"
+    },
+    {
+      "name": "breakfast",
+      "value": "breakfast"
+    },
+    {
+      "name": "lunch",
+      "value": "lunch"
+    },
+    {
+      "name": "dinner",
+      "value": "dinner"
+    },
+    {
+      "name": "extra_meal",
+      "value": "Extra Meal"
+    },
+    {
+      "name": "workout",
+      "value": "workout"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "form_description"
+    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "form_label"
+    },
+    {
+      "name": "staple",
+      "value": "staple"
+    },
+    {
+      "name": "fruit",
+      "value": "fruit"
+    },
+    {
+      "name": "meat",
+      "value": "meat"
+    },
+    {
+      "name": "nut",
+      "value": "nut"
+    },
+    {
+      "name": "other_type",
+      "value": "other"
+    },
+    {
+      "name": "walking_type",
+      "value": "walking"
+    },
+    {
+      "name": "running",
+      "value": "running"
+    },
+    {
+      "name": "riding",
+      "value": "riding"
+    },
+    {
+      "name": "aerobics",
+      "value": "aerobics"
+    },
+    {
+      "name": "swimming",
+      "value": "swimming"
+    },
+    {
+      "name": "ballgame",
+      "value": "ballgame"
+    },
+    {
+      "name": "strength",
+      "value": "strength"
+    },
+    {
+      "name": "RespiratoryMedicines",
+      "value": "呼吸道药"
+    },
+    {
+      "name": "AntiInflammatories",
+      "value": "抗菌消炎药"
+    },
+    {
+      "name": "PediatricMedications",
+      "value": "儿科用药"
+    },
+    {
+      "name": "OphthalmicMedications",
+      "value": "眼科用药"
+    },
+    {
+      "name": "GastrointestinalMedications",
+      "value": "肠胃用药"
+    },
+    {
+      "name": "ColdMedications",
+      "value": "感冒用药"
+    },
+    {
+      "name": "DermalMedications",
+      "value": "皮肤用药"
+    },
+    {
+      "name": "TraumaMedications",
+      "value": "外伤用药"
+    },
+    {
+      "name": "GynecologicalMedications",
+      "value": "妇科用药"
+    },
+    {
+      "name": "BloodPressureMedications",
+      "value": "血压药"
+    },
+    {
+      "name": "yaoxiang",
+      "value": "药箱"
+    },
+    {
+      "name": "isExit",
+      "value": "确定要退出吗？"
+    },
+    {
+      "name": "isExitInfo",
+      "value": "退出登录后下一次进入应用需要重新登录"
+    },
+    {
+      "name": "yes",
+      "value": "确定"
+    },
+    {
+      "name": "cancel",
+      "value": "取消"
+    },
+    {
+      "name": "inputUserInfo",
+      "value": "请输入用户名和密码！"
+    },
+    {
+      "name": "pleaseTryAgain",
+      "value": "请重试"
+    },
+    {
+      "name": "networkOrServiceError",
+      "value": "网络未连接或服务器异常"
+    },
+    {
+      "name": "appName",
+      "value": "鸿蒙医疗"
+    },
+    {
+      "name": "appInfo",
+      "value": "智能化医药app"
+    },
+    {
+      "name": "messageSMS",
+      "value": "短信验证"
+    },
+    {
+      "name": "forgetPassword",
+      "value": "忘记密码"
+    },
+    {
+      "name": "signUp",
+      "value": "注册账号"
+    },
+    {
+      "name": "copyRight",
+      "value": "启明星版权所有"
+    },
+    {
+      "name": "userName",
+      "value": "用户名"
+    },
+    {
+      "name": "password",
+      "value": "密码"
+    },
+    {
+      "name": "login",
+      "value": "登录"
+    },
+    {
+      "name": "logout",
+      "value": "退出登录"
+    },
+    {
+      "name": "setting_account_name",
+      "value": "李先生"
+    },
+    {
+      "name": "setting_account_email",
+      "value": "2000000@shenhua.cc"
+    },
+    {
+      "name": "setting_list_news",
+      "value": "推送通知"
+    },
+    {
+      "name": "setting_list_data",
+      "value": "数据管理"
+    },
+    {
+      "name": "setting_list_menu",
+      "value": "菜单设置"
+    },
+    {
+      "name": "setting_list_about",
+      "value": "关于"
+    },
+    {
+      "name": "setting_list_storage",
+      "value": "清除缓存"
+    },
+    {
+      "name": "setting_list_privacy",
+      "value": "隐私协议"
+    },
+    {
+      "name": "setting_button",
+      "value": "退出登录"
+    },
+    {
+      "name": "home_list",
+      "value": "列表"
+    },
+    {
+      "name": "mainPage_tabTitles_mine",
+      "value": "我的"
+    },
+    {
+      "name": "setting_toggle",
+      "value": "开关"
+    },
+    {
+      "name": "baseURL",
+      "value": "http://123.56.84.181:81"
+    },
+    {
+      "name": "my_love",
+      "value": "my_love"
+    },
+    {
+      "name": "history_record",
+      "value": "history_record"
+    },
+    {
+      "name": "shopping_cart",
+      "value": "shopping_cart"
+    },
+    {
+      "name": "message",
+      "value": "message"
+    },
+    {
+      "name": "my_goal",
+      "value": "my_goal"
+    },
+    {
+      "name": "group",
+      "value": "group"
+    },
+    {
+      "name": "favorites",
+      "value": "favorites"
+    },
+    {
+      "name": "recycle_bin",
+      "value": "recycle_bin"
+    },
+    {
+      "name": "async_cloud",
+      "value": "操作成功,已同步至云端"
+    },
+    {
+      "name":"async_cloud_failed",
+      "value": "操作失败,云端未同步"
+    },
+    {
+      "name": "message_center",
+      "value": "消息中心"
+    },
+    {
+      "name": "no_data",
+      "value": "暂无数据"
+    },
+    {
+      "name": "read_all",
+      "value": "全部已读"
+    },
+    {
+      "name": "delete_all",
+      "value": "全部删除"
+    },
+    {
+      "name":"flush",
+      "value": "刷新"
+    },
+    {
+      "name": "select",
+      "value": "选择"
+    },
+    {
+      "name": "delete_selected",
+      "value": "删除选中"
+    },
+    {
+      "name": "flush_success",
+      "value": "刷新成功"
+    },
+    {
+      "name": "view_details",
+      "value": "查看详情"
+    },
+    {
+      "name": "mark_unread",
+      "value": "标记未读"
+    },
+    {
+      "name": "mark_read",
+      "value": "标记已读"
+    },
+    {
+      "name": "mainPage_top",
+      "value": "排行榜"
+    },
+    {
+      "name": "mainPage_new",
+      "value": "最新品"
+    },
+    {
+      "name": "mainPage_brand",
+      "value": "我的收藏"
+    },
+    {
+      "name": "mainPage_found",
+      "value": "筛选"
+    },
+    {
+      "name": "mainPage_text_top",
+      "value": "赶快进来和我一起查看最新榜单吧"
+    },
+    {
+      "name": "mainPage_text_new",
+      "value": "进入网上冲浪最前线"
+    },
+    {
+      "name": "mainPage_text_brand",
+      "value": "独属自己的空间"
+    },
+    {
+      "name": "mainPage_text_found",
+      "value": "查找直接的兴趣"
+    },
+    {
+      "name": "real_name",
+      "value": "真实姓名"
+    },
+    {
+      "name": "email",
+      "value": "邮箱"
+    },
+    {
+      "name": "confirm_password",
+      "value": "确认密码"
+    },
+    {
+      "name": "sms_code",
+      "value": "邮箱验证码"
+    },
+    {
+      "name": "info_not_enough",
+      "value": "请完善具体信息"
+    },
+    {
+      "name": "emergency_contact",
+      "value": "紧急联系人"
+    },
+    {
+      "name": "contact_name",
+      "value": "联系人姓名"
+    },
+    {
+      "name": "contact_phone",
+      "value": "联系人电话"
+    },
+    {
+      "name": "contact_email",
+      "value": "联系人邮箱"
+    },
+    {
+      "name": "contact_info",
+      "value": "紧急联系人信息"
+    },
+    {
+      "name": "phone",
+      "value": "电话"
+    },
+    {
+      "name": "no_contact",
+      "value": "暂无紧急联系人"
+    },
+    {
+      "name": "go_to_add",
+      "value": "去添加"
+    },
+
+    {
+      "name": "tab_locker",
+      "value": "locker"
+    }
+  ]
+}

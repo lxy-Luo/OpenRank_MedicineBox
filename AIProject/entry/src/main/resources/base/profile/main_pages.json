@@ -1,0 +1,17 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/WelcomePage",
+    "pages/ItemIndex",
+    "pages/RefreshTransit",
+    "pages/LoginPage",
+    "pages/MessageInfoPage",
+    "pages/MessageOverviewPage",
+    "pages/MedicalItemIndex",
+    "pages/UserAgreement",
+    "pages/DrugDetailsPage",
+    "pages/VideoPlayer",
+    "pages/SignUpPage",
+    "pages/DetailPage"
+  ]
+}

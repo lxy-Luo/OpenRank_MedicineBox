@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_AIProject_com.ctgu.qmx_560086000300612061.cer",
+          "storePassword": "0000001B140A572A022493D46EB1DFC3205EB0AB272B296E75C4728B8697B13527C62598D4335CF7D29D50",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BFE60C2629ECDD0733068B2BF24B7EA8AE899503C8E86FB02E6492D4B4BC0A57B2EA4BAE3BC6C73",
+          "profile": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_AIProject_com.ctgu.qmx_560086000300612061.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_AIProject_com.ctgu.qmx_560086000300612061.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "welcome_page_background",
+      "value": "#02BD79"
+    },
+    {
+      "name": "index_page_background",
+      "value": "#FFF5F5F5"
+    },
+    {
+      "name": "opacity_white_CC",
+      "value": "#CCFFFFFF"
+    },
+    {
+      "name": "opacity_white_66",
+      "value": "#66FFFFFF"
+    },
+    {
+      "name": "tab_default",
+      "value": "#DDE0E4"
+    },
+    {
+      "name": "primary_color",
+      "value": "#02BD79"
+    },
+    {
+      "name": "light_primary_color",
+      "value": "#9beda4"
+    },
+    {
+      "name": "lightest_primary_color",
+      "value": "#eafbf5"
+    },
+    {
+      "name": "secondary_color",
+      "value": "#5d907a"
+    },
+    {
+      "name": "gray",
+      "value": "#676c7f"
+    },
+    {
+      "name": "light_gray",
+      "value": "#b5b5b7"
+    },
+    {
+      "name": "carbon_color",
+      "value": "#8de2c3"
+    },
+    {
+      "name": "protein_color",
+      "value": "#ff9c97"
+    },
+    {
+      "name": "fat_color",
+      "value": "#ffcc83"
+    },
+    {
+      "name": "stats_title_bgc",
+      "value": "#d6eee1"
+    },
+    {
+      "name": "hei1",
+      "value": "#1E1E1E"
+    },
+    {
+      "name": "hei2",
+      "value": "#2d2d2d"
+    },
+    {
+      "name": "hei3",
+      "value": "#454545"
+    },
+    {
+      "name": "qian1",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "lv1",
+      "value": "#2E8B57"
+    },
+    {
+      "name": "lv2",
+      "value": "#61bc84"
+    },
+    {
+      "name": "lv3",
+      "value": "#c6ffe6"
+    },
+    {
+      "name": "lv4",
+      "value": "#8FBC8F"
+    },
+    {
+      "name": "qian2",
+      "value": "#8FBC8F"
+    },
+    {
+      "name": "lv5",
+      "value": "#345e37"
+    }
+  ]
+}
